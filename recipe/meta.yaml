@@ -15,7 +15,6 @@ source:
 build:
   merge_build_host: true  # [win]
   number: 0
-  skip: true  # [r_base == "3.5.1"]
   rpaths:
     - lib/R/lib/
     - lib/
@@ -35,11 +34,10 @@ requirements:
     - r-coda
     - r-fields
     - r-ggplot2
-    - r-mvtnorm
     - r-nnet
     - r-proc
-    - r-pdist
     - r-rlang
+    - r-sp
     - r-statmod
     - r-truncnorm
   run:
@@ -54,11 +52,10 @@ requirements:
     - r-coda
     - r-fields
     - r-ggplot2
-    - r-mvtnorm
     - r-nnet
     - r-proc
-    - r-pdist
     - r-rlang
+    - r-sp
     - r-statmod
     - r-truncnorm
 
