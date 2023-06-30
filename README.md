@@ -1,11 +1,11 @@
-About r-hmsc
-============
+About r-hmsc-feedstock
+======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-hmsc-feedstock/blob/main/LICENSE.txt)
 
 Home: https://www.helsinki.fi/en/researchgroups/statistical-ecology/hmsc
 
 Package license: GPL-3.0-only
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-hmsc-feedstock/blob/main/LICENSE.txt)
 
 Summary: Hierarchical Modelling of Species Communities (HMSC) is a model-based approach for analyzing community ecological data. This package implements it in the Bayesian framework with Gibbs Markov chain Monte Carlo (MCMC) sampling.
 
