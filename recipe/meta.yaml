@@ -1,4 +1,4 @@
-{% set version = "3.0-13" %}
+{% set version = "3.3-7" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/Hmsc_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/Hmsc/Hmsc_{{ version }}.tar.gz
-  sha256: cbef4706aa09e93030243cee3ae4e62b02160d96981020f5a385751eade4f88d
+  sha256: 74ffe55dc809e473371c2dd8c8f797a4562edafa9f58d6bb4c843cda2911a699
 
 build:
-  number: 3
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
